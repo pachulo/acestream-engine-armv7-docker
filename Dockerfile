@@ -1,4 +1,4 @@
-FROM armv7/armhf-ubuntu:16.04
+FROM resin/rpi-raspbian:stretch
 
 RUN apt update -y && apt upgrade -y && apt install -y git
 
